@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 mongoose.set('strictQuery', true);
-
+//
 // Reused across hot reloads and serverless invocations so each request does not open a new pool.
 let pending = null;
 
